@@ -1,0 +1,46 @@
+﻿@model IEnumerable<BTLPMQL.Models.PhieuHoaDon>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MaPhieu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenPhieu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SanPham)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaPhieu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenPhieu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SanPham)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IDphieu }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IDphieu }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IDphieu })
+        </td>
+    </tr>
+}
+
+</table>
