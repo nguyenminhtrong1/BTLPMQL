@@ -7,13 +7,13 @@ namespace BTLPMQL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class donhangsss : IMigrationMetadata
+    public sealed partial class abc : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(donhangsss));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(abc));
         
         string IMigrationMetadata.Id
         {
-            get { return "202105110135491_donhangsss"; }
+            get { return "202105180231443_abc"; }
         }
         
         string IMigrationMetadata.Source

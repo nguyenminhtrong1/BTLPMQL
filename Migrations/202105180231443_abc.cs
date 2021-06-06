@@ -3,7 +3,7 @@ namespace BTLPMQL.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class updateeeeeee : DbMigration
+    public partial class abc : DbMigration
     {
         public override void Up()
         {
@@ -18,6 +18,17 @@ namespace BTLPMQL.Migrations
                         credit = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.MaHoaDon);
+            
+            CreateTable(
+                "dbo.PhieuHoaDons",
+                c => new
+                    {
+                        IDphieu = c.Int(nullable: false, identity: true),
+                        MaPhieu = c.Int(nullable: false),
+                        TenPhieu = c.String(),
+                        SanPham = c.String(),
+                    })
+                .PrimaryKey(t => t.IDphieu);
             
             AddColumn("dbo.PhanHois", "HoaDonPhanHoi", c => c.String());
             AddColumn("dbo.PhanHois", "ChiTiet", c => c.String());
@@ -44,6 +55,7 @@ namespace BTLPMQL.Migrations
             AddColumn("dbo.PhanHois", "TenKhachHang", c => c.String());
             DropColumn("dbo.PhanHois", "ChiTiet");
             DropColumn("dbo.PhanHois", "HoaDonPhanHoi");
+            DropTable("dbo.PhieuHoaDons");
             DropTable("dbo.DonHangs");
         }
     }

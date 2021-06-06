@@ -143,10 +143,6 @@
     <Compile Include="Migrations\202105110130584_KhachHangssss.Designer.cs">
       <DependentUpon>202105110130584_KhachHangssss.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202105110135491_donhangsss.cs" />
-    <Compile Include="Migrations\202105110135491_donhangsss.Designer.cs">
-      <DependentUpon>202105110135491_donhangsss.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202105110140222_phanhoisssss.cs" />
     <Compile Include="Migrations\202105110140222_phanhoisssss.Designer.cs">
       <DependentUpon>202105110140222_phanhoisssss.cs</DependentUpon>
@@ -167,17 +163,9 @@
     <Compile Include="Migrations\202105110218228_taikhoan.Designer.cs">
       <DependentUpon>202105110218228_taikhoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202105110259434_updateeeeeee.cs" />
-    <Compile Include="Migrations\202105110259434_updateeeeeee.Designer.cs">
-      <DependentUpon>202105110259434_updateeeeeee.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105110316116_hoadonsssss.cs" />
-    <Compile Include="Migrations\202105110316116_hoadonsssss.Designer.cs">
-      <DependentUpon>202105110316116_hoadonsssss.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105110321078_Phieuhaodonss.cs" />
-    <Compile Include="Migrations\202105110321078_Phieuhaodonss.Designer.cs">
-      <DependentUpon>202105110321078_Phieuhaodonss.cs</DependentUpon>
+    <Compile Include="Migrations\202105180231443_abc.cs" />
+    <Compile Include="Migrations\202105180231443_abc.Designer.cs">
+      <DependentUpon>202105180231443_abc.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
@@ -279,9 +267,6 @@
     <EmbeddedResource Include="Migrations\202105110130584_KhachHangssss.resx">
       <DependentUpon>202105110130584_KhachHangssss.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105110135491_donhangsss.resx">
-      <DependentUpon>202105110135491_donhangsss.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202105110140222_phanhoisssss.resx">
       <DependentUpon>202105110140222_phanhoisssss.cs</DependentUpon>
     </EmbeddedResource>
@@ -297,14 +282,8 @@
     <EmbeddedResource Include="Migrations\202105110218228_taikhoan.resx">
       <DependentUpon>202105110218228_taikhoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105110259434_updateeeeeee.resx">
-      <DependentUpon>202105110259434_updateeeeeee.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105110316116_hoadonsssss.resx">
-      <DependentUpon>202105110316116_hoadonsssss.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105110321078_Phieuhaodonss.resx">
-      <DependentUpon>202105110321078_Phieuhaodonss.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202105180231443_abc.resx">
+      <DependentUpon>202105180231443_abc.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
